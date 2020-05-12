@@ -1,7 +1,6 @@
 # 简介
 
 #### 实现调用抖音11.0.0 libcms.so的leviathan方法生成x-gorgon
-#### 调用代码见https://github.com/satnglove/sign-algorithms
 
 #### 用法
 ![](./png/1.png "")
@@ -17,7 +16,7 @@ import time
 
 rticket = int(time.time() * 1000)
 url = f"https://aweme.snssdk.com/aweme/v1/aweme/favorite/?invalid_item_count=0&is_hiding_invalid_item=0&max_cursor=0&sec_user_id=MS4wLjABAAAAxcFxZ_rO4A_KJdKlpxkbaf3338mcezcAH6tc8xvev5M&count=20&os_api=22&device_type=SM-G9350&ssmix=a&manifest_version_code=100901&dpi=192&uuid=865851147329023&app_name=aweme&version_name=10.9.0&ts=1588844919&app_type=normal&ac=wifi&host_abi=armeabi-v7a&update_version_code=10909900&channel=wandoujia_aweme_feisuo&_rticket={str(rticket)}&device_platform=android&iid=4212964517742397&version_code=100900&cdid=71403db1-8dac-44f8-a63f-17e5a6493496&openudid=9c1f84a49d5b008b&device_id=71455100727&resolution=720*1280&os_version=5.1.1&language=zh&device_brand=samsung&aid=1128&mcc_mnc=46003"
-# 1.clone https://github.com/heyaug/HttpSo项目
+# 1.clone https://github.com/satng/douyin_httpso项目
 # 2.编译app并安装
 # adb forward tcp:8887 tcp:8888
 
