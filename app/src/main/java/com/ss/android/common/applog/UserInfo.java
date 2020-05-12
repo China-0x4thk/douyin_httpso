@@ -3,7 +3,7 @@ package com.ss.android.common.applog;
 public class UserInfo {
     static {
         try {
-            System.loadLibrary("cms");
+            System.loadLibrary("cms110");
         }
         catch(UnsatisfiedLinkError e) {
             e.printStackTrace();

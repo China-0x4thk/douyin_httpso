@@ -4,7 +4,7 @@ import android.content.Context;
 
 public final class a {
     static {
-        String str = "cms";
+        String str = "cms110";
         try {
             System.loadLibrary(str);
         } catch (UnsatisfiedLinkError e) {
